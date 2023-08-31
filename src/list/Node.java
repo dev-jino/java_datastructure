@@ -12,7 +12,7 @@ public class Node<E> {
   }
 
   // 메서드
-  public E getItem() {
+  public Object getItem() {
     return item;
   }
 

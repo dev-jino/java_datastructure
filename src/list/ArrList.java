@@ -95,4 +95,15 @@ public class ArrList <E> {
     }
     a = t;
   }
+
+  public <E> int indexOf(E e) {
+    int index = -1;
+    for (int i = 0; i < a.length; i++) {
+      if (e == a[i]) {
+        index = i;
+        break;
+      }
+    }
+    return index;
+  }
 }
